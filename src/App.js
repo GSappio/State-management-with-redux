@@ -1,7 +1,9 @@
 import './App.css';
 
 import Intervalo from './components/Intervalo';
-import Card from './components/Card';
+import Media from './components/Media';
+import Soma from './components/Soma';
+import Sorteio from './components/Sorteio';
 
 function App() {
   return (
@@ -9,11 +11,11 @@ function App() {
       <h1>Exercício React-Reduxs (Simples)</h1>
       <div className='linha'>
       <Intervalo></Intervalo> 
-      <Card title='Card 2' green>X</Card> 
-      </div>
+      </div>  
       <div className='linha'>
-      <Card title='Card 3' blue>Y</Card> 
-      <Card title='Card 4' purple>Y</Card> 
+      <Media></Media> 
+      <Soma></Soma> 
+      <Sorteio> </Sorteio> 
       </div>
     </div>
   );
